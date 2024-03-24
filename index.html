@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <title>Banana_102的个人网站 - 奋斗不止，梦在前方</title>
+    <link rel="stylesheet" href="css/box.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+  <script src="js/cursor_effects.js"></script>
+  <div class="ca">
+    <h1>
+        Banana_102的
+        <br>
+        个人网站
+    </h1>
+</div>
+<hr>
+<div class="ba">
+    <h2>
+    <div class="ca">
+        简介
+    </div>
+</h2>
+<div style="margin: auto 3.82%; text-indent: 2em;">
+    <p>欢迎访问<strong>Banana_102</strong>的个人网站。</p>
+    <p>你可以来参观我的凉亭，里面有很多关于我的事情。</p>
+    <div style="margin: auto 3.82%; text-indent: 2em;">
+    <a href="bower/index.html">参观我的凉亭</a>
+  </div>
+    <p>由于这个网站是面向所有人的，网友、亲朋好友、老师同学等人都有可能来访问，所以不会在这个网站里存放私人信息。</p>
+</div>
+<h2>
+<div class="ca">
+    关于我
+</div>
+</h2>
+<div style="margin: auto 3.82%; text-indent: 2em;">
+<h4 style="text-indent: initial;">如何称呼我？</h4>
+
+  <p>很多人称呼我为「<strong>Banana</strong>」。</p>
+  <p>我在网络上的全名是「<strong>Banana_102</strong>」，中文名是「<strong>香蕉</strong>」（但没多少人知道）。</p>
+  <p>你可以叫我「Banana_102」，或者叫我「Banana」。</p>
+
+</div>
+
+<div style="margin: auto 3.82%; text-indent: 2em;">
+<h4 style="text-indent: initial;">我的联系方式和社交平台账户：</h4>
+<p>
+    我的常用 QQ 号：104264650 <br><div style="margin: auto 3.82%; text-indent: 2em;"><a target="_blank" href="tencent://message/?uin=104264650">点击此链接添加我为 QQ 好友</a></div>
+  </p>
+<p>
+    我的常用微信号：gtus1357lele</p>
+<p>
+    我的哔哩哔哩 UID：2081422374 <br><div style="margin: auto 3.82%; text-indent: 2em;"><a target="_blank" href="https://space.bilibili.com/2081422374?spm_id_from=333.1007.0.0">点击此链接访问我的哔哩哔哩个人空间</a></div>
+</emspd></emspd></p>
+</div>
+</div>
+<h2>
+  <div class="ca">
+      网页导航
+  </div>
+</h2>
+<p style="text-align: center;">
+<a target="_blank" href="https://github.com/Banana-102/mcbanana102.github.io">GitHub 页面</a>
+<br>
+<a target="_blank" href="time_machine.html">时光机</a>
+</p>
+</div>
+<div class="ca">
+<span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span> 
+<script language="javascript"> 
+ var now = new Date();
+ function createtime(){
+  var grt= new Date("03/23/2024 12:27:00");/*---网站的启用时间--*/
+  now.setTime(now.getTime()+250);
+  days = (now - grt ) / 1000 / 60 / 60 / 24;
+  dnum = Math.floor(days);
+  hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum);
+  hnum = Math.floor(hours);
+  if(String(hnum).length ==1 ){hnum = "0" + hnum;}
+  minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum);
+  mnum = Math.floor(minutes);
+  if(String(mnum).length ==1 ){mnum = "0" + mnum;}
+  seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
+  snum = Math.round(seconds);
+  if(String(snum).length ==1 ){snum = "0" + snum;}
+  document.getElementById("timeDate").innerHTML = "稳定运行"+dnum+"天";
+  document.getElementById("times").innerHTML = hnum + "小时" + mnum + "分" + snum + "秒";
+ }
+ setInterval("createtime()",250); 
+</script>
+<br>
+友链
+<br>
+<a target="_blank" href="https://guardian1l.top">L89066225(柠枺)</a>
+|
+<a target="_blank" href="https://mcxi.fun">一只西西</a>
+</div>
+    
+</body>
+</html>
